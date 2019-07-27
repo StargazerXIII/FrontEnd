@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="Polaris-Card">
+      <ul role="tablist" class="Polaris-Tabs">
+        <li role="presentation" class="Polaris-Tabs__TabContainer"><button id="all-customers" role="tab" type="button" tabindex="0" class="Polaris-Tabs__Tab Polaris-Tabs__Tab--selected" aria-selected="true" aria-controls="all-customers-content" aria-label="Tab1"><span class="Polaris-Tabs__Title">Tab1</span></button></li>
+        <li>Tab2</li>
+      </ul>
+    </div>
   </div>
 </template>
 
